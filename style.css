@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 0 200px;
+    padding: 0 100px;
 }
 
 .header ul {
@@ -34,15 +34,15 @@ body {
 .hero {
     background-color: #1F2937;
     display: flex;
-    padding: 40px 200px;
+    padding: 40px 100px;
     text-align: left;
     align-items: center;
+    justify-content: center;
 }
 
 .hero-image {
-    flex: 1;
-    height: 400px;
-    width: 600px;
+    width: 100%;
+    border-radius: 8px;
 }
 
 .hero-title {
@@ -94,6 +94,12 @@ body {
 .card img {
     height: 200px;
     width: 200px;
+    border-radius: 8px;
+
+}
+
+.highlight {
+    background-color:yellow;
 }
 
 .testimonial {
@@ -164,9 +170,10 @@ body {
 }
 
 .footer {
-    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #1F2937;
-    width: 100%;
     padding: 20px;
 }
 
