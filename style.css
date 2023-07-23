@@ -1,0 +1,175 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 0 200px;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.header ul a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    padding: 40px 200px;
+    text-align: left;
+    align-items: center;
+}
+
+.hero-image {
+    flex: 1;
+    height: 400px;
+    width: 600px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+    color:#F9FAF8
+}
+
+.hero-left {
+    padding-right: 20px;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+    width: 120px;
+    color: white;
+    font-size: 18px;
+}
+
+.infoboxes {
+    padding: 50px 200px;
+}
+
+.infoboxes-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card {
+    flex:1;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    padding: 50px 200px;
+}
+
+.testimonial-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.testimonial-name {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-wrapper {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    background-color: #3882f6;
+    width: 1000px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+    gap: 80px;
+    border-radius: 8px;
+}
+
+.cta-title, .cta-text {
+    color:#F9FAF8;
+    font-size: 24px;
+}
+
+.cta-title {
+    font-weight: bold;
+}
+
+.cta-text {
+    font-weight: lighter;
+}
+
+.cta-button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-radius: 8px;
+    padding: 8px;
+    width: 180px;
+    height: 50px;
+    outline: none;
+    font-size: 24px;
+    border-style: solid;
+}
+
+.cta-left {
+    text-align: left;
+}
+
+.footer {
+    margin: auto;
+    background-color: #1F2937;
+    width: 100%;
+    padding: 20px;
+}
+
+.copyright {
+    color:#F9FAF8;
+}
